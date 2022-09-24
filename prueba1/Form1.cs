@@ -14,10 +14,8 @@ namespace prueba1
     {
         public Form1()
         {
-            //Hola Mundo
-            ToolTip toolTip1 = new ToolTip();
-            toolTip1.SetToolTip(this.button1, "My button1");
-            InitializeComponent();
+           
+
         
         }
     }
