@@ -14,9 +14,7 @@ namespace prueba1
     {
         public Form1()
         {
-           
-
-        
+           hola 
         }
     }
 }
