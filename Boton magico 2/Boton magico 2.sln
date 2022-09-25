@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32901.215
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "prueba1", "prueba1.csproj", "{9B24A860-059A-43A9-8103-97D52C53364B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Boton magico 2", "Boton magico 2.csproj", "{A9BF6E6E-14FB-440B-8ED1-D45EB40D812C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{9B24A860-059A-43A9-8103-97D52C53364B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9B24A860-059A-43A9-8103-97D52C53364B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9B24A860-059A-43A9-8103-97D52C53364B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9B24A860-059A-43A9-8103-97D52C53364B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9BF6E6E-14FB-440B-8ED1-D45EB40D812C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9BF6E6E-14FB-440B-8ED1-D45EB40D812C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9BF6E6E-14FB-440B-8ED1-D45EB40D812C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9BF6E6E-14FB-440B-8ED1-D45EB40D812C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {14720EC3-BE34-41CB-854A-67FE02E490B0}
+		SolutionGuid = {F271AF87-D7BF-4275-AA66-D0C4A928CAD6}
 	EndGlobalSection
 EndGlobal

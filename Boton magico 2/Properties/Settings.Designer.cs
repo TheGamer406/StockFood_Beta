@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace prueba1.Properties
+namespace Boton_magico_2.Properties
 {
 
 

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace prueba1
+namespace Boton_magico_2
 {
     internal static class Program
     {
