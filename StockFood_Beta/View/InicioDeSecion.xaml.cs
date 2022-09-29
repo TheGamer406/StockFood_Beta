@@ -10,24 +10,24 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace StockFood_Beta
+namespace StockFood_Beta.View
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Lógica de interacción para InicioDeSecion.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class InicioDeSecion : Window
     {
-        public MainWindow()
+        public InicioDeSecion()
         {
             InitializeComponent();
         }
 
         private void Window_MouseDown(object sender, MouseButtonEventArgs e)
         {
-           
+            if (e.LeftButton == MouseButtonState.Pressed)
+                DragMove();
         }
     }
 }
