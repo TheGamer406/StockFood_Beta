@@ -21,3 +21,4 @@ C:\Users\josem\OneDrive\Documentos\GitHub\StockFood_Beta\StockFood_Beta\obj\Debu
 C:\Users\josem\OneDrive\Documentos\GitHub\StockFood_Beta\StockFood_Beta\obj\Debug\net6.0-windows\ref\StockFood_Beta.dll
 C:\Users\josem\OneDrive\Documentos\GitHub\StockFood_Beta\StockFood_Beta\obj\Debug\net6.0-windows\View\InicioDeSecion.g.cs
 C:\Users\josem\OneDrive\Documentos\GitHub\StockFood_Beta\StockFood_Beta\obj\Debug\net6.0-windows\View\InicioDeSecion.baml
+C:\Users\josem\OneDrive\Documentos\GitHub\StockFood_Beta\StockFood_Beta\obj\Debug\net6.0-windows\StockFood_Beta_Content.g.cs

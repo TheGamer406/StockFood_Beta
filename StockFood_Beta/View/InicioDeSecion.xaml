@@ -12,30 +12,36 @@
         Background="Transparent"
         AllowsTransparency="True"
         MouseDown="Window_MouseDown">
-    <Border CornerRadius="10"
-            BorderThickness="5"
-            Opacity="100"
-            Background="White">
-        <Border.BorderBrush>
-            <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
-                <GradientStop Color="#A30A11" Offset="0"/>
-                <GradientStop Color="#900A11" Offset="0.25"/>
-                <GradientStop Color="#76090F" Offset="0.50"/>
-                <GradientStop Color="#3F0407" Offset="0.75"/>
-            </LinearGradientBrush>
-        </Border.BorderBrush>
-        <Grid>
-            <Grid.RowDefinitions>
-                <RowDefinition Height="30"/>
-                <RowDefinition/>
-            </Grid.RowDefinitions>
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition/>
-                <ColumnDefinition Width="25"/>
-                <ColumnDefinition Width="25"/>
-                <ColumnDefinition Width="5"/>
-            </Grid.ColumnDefinitions>
-            <TextBlock Text= "Inicio De Secion"
+    <Border CornerRadius="10">
+        <Border.Background>
+            <ImageBrush ImageSource="/View/LoginImage.png"
+                        Opacity=".50"/>
+        </Border.Background>
+        <Border CornerRadius="10"
+                BorderThickness="5"
+                Background="White"
+                Opacity="0.50">
+            <Border.BorderBrush>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                    <GradientStop Color="#A30A11" Offset="0"/>
+                    <GradientStop Color="#900A11" Offset="0.25"/>
+                    <GradientStop Color="#76090F" Offset="0.50"/>
+                    <GradientStop Color="#3F0407" Offset="0.75"/>
+                </LinearGradientBrush>
+            </Border.BorderBrush>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="30"/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition Width="25"/>
+                        <ColumnDefinition Width="25"/>
+                        <ColumnDefinition Width="5"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock Text= "Inicio De Sesion"
                         Foreground="Black"
                         FontSize="15"
                         FontWeight="Bold"
@@ -44,8 +50,7 @@
                         VerticalAlignment="Center"
                          Margin="10,0,0,0"/>
 
-
-            <Button x:Name="btnMinimize"                           
+                    <Button x:Name="btnMinimize"                           
                             BorderThickness="0"
                             Content="-"
                             Foreground="White"
@@ -54,29 +59,29 @@
                             Cursor="Hand"
                             Grid.Column="1"
                             Click="btnMinimize_Click">
-                <Button.Style>
-                    <Style TargetType="Button">
-                        <Setter Property="Background" Value="BlAck"/>
-                        <Style.Triggers>
-                            <Trigger Property="IsMouseOver" Value="True">
-                                <Setter Property="Background" Value="#424242 "/>
-                            </Trigger>
-                        </Style.Triggers>
-                    </Style>
-                </Button.Style>
-                <Button.Template>
-                    <ControlTemplate TargetType="Button">
-                        <Border Width="18" Height="18"
+                        <Button.Style>
+                            <Style TargetType="Button">
+                                <Setter Property="Background" Value="BlAck"/>
+                                <Style.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter Property="Background" Value="#424242 "/>
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Button.Style>
+                        <Button.Template>
+                            <ControlTemplate TargetType="Button">
+                                <Border Width="18" Height="18"
                                         CornerRadius="9"
                                         Background="{TemplateBinding Background}">
-                            <ContentPresenter VerticalAlignment="Center"
+                                    <ContentPresenter VerticalAlignment="Center"
                                                       HorizontalAlignment="Center"/>
-                        </Border>
-                    </ControlTemplate>
-                </Button.Template>
-            </Button>
-            
-            <Button x:Name="btnClose"                           
+                                </Border>
+                            </ControlTemplate>
+                        </Button.Template>
+                    </Button>
+
+                    <Button x:Name="btnClose"                           
                             BorderThickness="0"
                             Content="X"
                             Foreground="White"
@@ -85,29 +90,115 @@
                             Cursor="Hand"
                             Grid.Column="2"
                             Click="btnClose_Click">
-                <Button.Style>
-                    <Style TargetType="Button">
-                        <Setter Property="Background" Value="#900A11"/>
-                        <Style.Triggers>
-                            <Trigger Property="IsMouseOver" Value="True">
-                                <Setter Property="Background" Value="#A30A11"/>
-                            </Trigger>
-                        </Style.Triggers>
-                    </Style>
-                </Button.Style>
-                <Button.Template>
-                    <ControlTemplate TargetType="Button">
-                        <Border Width="18" Height="18"
+                        <Button.Style>
+                            <Style TargetType="Button">
+                                <Setter Property="Background" Value="#900A11"/>
+                                <Style.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter Property="Background" Value="#A30A11"/>
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Button.Style>
+                        <Button.Template>
+                            <ControlTemplate TargetType="Button">
+                                <Border Width="18" Height="18"
                                         CornerRadius="9"
                                         Background="{TemplateBinding Background}">
-                            <ContentPresenter VerticalAlignment="Center"
+                                    <ContentPresenter VerticalAlignment="Center"
                                                       HorizontalAlignment="Center"/>
-                        </Border>
-                    </ControlTemplate>
-                </Button.Template>
-            </Button>
+                                </Border>
+                            </ControlTemplate>
+                        </Button.Template>
+                    </Button>
+                </Grid>
 
-        </Grid>
+                <StackPanel Width="250"
+                            Grid.Row="2"
+                            Orientation="Vertical"
+                            Margin="0,35,0,0">
+                    <Border CornerRadius="100"
+                            BorderThickness="5"
+                            Width="200" Height="200">
+                        <Border.BorderBrush>
+                            <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                                <GradientStop Color="#A30A11" Offset="0"/>
+                                <GradientStop Color="#900A11" Offset="0.25"/>
+                                <GradientStop Color="#76090F" Offset="0.50"/>
+                                <GradientStop Color="#3F0407" Offset="0.75"/>
+                            </LinearGradientBrush>
+                        </Border.BorderBrush>
+                        <Border.Background>
+                            <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                                <GradientStop Color="#A30A11" Offset="0"/>
+                                <GradientStop Color="#900A11" Offset="0.25"/>
+                                <GradientStop Color="#76090F" Offset="0.50"/>
+                                <GradientStop Color="#3F0407" Offset="0.75"/>
+                            </LinearGradientBrush>
+                        </Border.Background>
+                        <TextBlock Text="Logo"
+                                   FontFamily="Monserrat"
+                                   FontSize="25"
+                                   Foreground="White"
+                                   FontWeight="Medium"
+                                   Opacity="100"
+                                   HorizontalAlignment="Center"
+                                   VerticalAlignment="Center"/>
+                    </Border>
+                    <TextBlock Text="StockFood"
+                               Foreground="Black"
+                               FontSize="25"
+                               FontWeight="Medium"
+                               FontFamily="Monserrat"
+                               HorizontalAlignment="Center"
+                               Margin="0,5,5,0"/>
+                    <TextBlock Text="Todo por lo que luches puede que lo llegues a tener pero no quedes atras por la posibilidad de que no"
+                               Foreground="DarkGray"
+                               FontSize="12"
+                               FontWeight="Medium"
+                               TextWrapping="Wrap"
+                               Margin="2,5,2,0"
+                               TextAlignment="Center"/>
+                    <TextBlock Text="Nombre de Usuario:"
+                               Foreground="Black"
+                               FontSize="12"
+                               FontWeight="Medium"
+                               FontFamily="monserrat"
+                               Margin="0,30,0,0"/>
+                    <TextBox x:Name="txtnombredeusuario"
+                             FontFamily="Monserrat"
+                             FontSize="13"
+                             FontWeight="Medium"
+                             Foreground="Black"
+                             CaretBrush="#A30A11"
+                             BorderBrush="Gray"
+                             BorderThickness="0,0,0,3"
+                             Height="23"
+                             VerticalAlignment="center"
+                             Margin="0,5,0,0"
+                             Padding="20,0,0,0" RenderTransformOrigin="0.492,0.379">
+                        <TextBox.Background>
+                            <ImageBrush ImageSource="/View/user2.ico" Stretch="Uniform"
+                                        AlignmentX="Left" AlignmentY="Center">
+                                <ImageBrush.RelativeTransform>
+                                    <TransformGroup>
+                                        <ScaleTransform CenterY="0.5" CenterX="0.5" ScaleX="1"/>
+                                        <SkewTransform CenterX="0.5" CenterY="0.5"/>
+                                        <RotateTransform CenterX="0.5" CenterY="0.5"/>
+                                        <TranslateTransform/>
+                                    </TransformGroup>
+                                </ImageBrush.RelativeTransform>
+                            </ImageBrush>
+                        </TextBox.Background>
+
+                    </TextBox>
+
+
+
+
+                </StackPanel>
+
+            </Grid>
+        </Border>
     </Border>
-
 </Window>

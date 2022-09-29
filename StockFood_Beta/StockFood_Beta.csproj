@@ -8,9 +8,23 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Images\LoginImage.jpg" />
+    <None Remove="View\LoginImage.png" />
+    <None Remove="View\user2.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Images\LoginImage.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="Model\" />
     <Folder Include="ModelView\" />
-    <Folder Include="Images\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="View\LoginImage.png" />
+    <Resource Include="View\user2.ico" />
   </ItemGroup>
 
 </Project>

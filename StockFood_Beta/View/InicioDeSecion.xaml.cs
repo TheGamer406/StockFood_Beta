@@ -22,8 +22,8 @@ namespace StockFood_Beta.View
         public InicioDeSecion()
         {
             InitializeComponent();
-            
         }
+
 
         private void Window_MouseDown(object sender, MouseButtonEventArgs e)
         {
@@ -40,5 +40,6 @@ namespace StockFood_Beta.View
         {
             Application.Current.Shutdown();
         }
+
     }
 }
