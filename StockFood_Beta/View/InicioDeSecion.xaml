@@ -12,15 +12,16 @@
         Background="Transparent"
         AllowsTransparency="True"
         MouseDown="Window_MouseDown">
-    <Border CornerRadius="10">
+    <Border CornerRadius="11">
         <Border.Background>
-            <ImageBrush ImageSource="/View/LoginImage.png"
-                        Opacity=".50"/>
+            <ImageBrush ImageSource="/View/LoginImage.png"/>
         </Border.Background>
         <Border CornerRadius="10"
-                BorderThickness="5"
-                Background="White"
-                Opacity="0.50">
+                BorderThickness="5">
+            <Border.Background>
+                <SolidColorBrush Color="White" Opacity="0.5"/>
+            </Border.Background>
+            
             <Border.BorderBrush>
                 <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
                     <GradientStop Color="#A30A11" Offset="0"/>
@@ -153,7 +154,7 @@
                                HorizontalAlignment="Center"
                                Margin="0,5,5,0"/>
                     <TextBlock Text="Todo por lo que luches puede que lo llegues a tener pero no quedes atras por la posibilidad de que no"
-                               Foreground="DarkGray"
+                               Foreground="White"
                                FontSize="12"
                                FontWeight="Medium"
                                TextWrapping="Wrap"
