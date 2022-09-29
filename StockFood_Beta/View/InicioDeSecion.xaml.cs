@@ -41,5 +41,9 @@ namespace StockFood_Beta.View
             Application.Current.Shutdown();
         }
 
+        private void btnInciarSesion_Click(object sender, RoutedEventArgs e)
+        {
+            Application.Current.Shutdown();
+        }
     }
 }
