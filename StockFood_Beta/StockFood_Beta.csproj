@@ -20,13 +20,12 @@
 
   <ItemGroup>
     <Folder Include="Model\" />
-    <Folder Include="ModelView\" />
   </ItemGroup>
 
   <ItemGroup>
-    <Resource Include="View\Key.ico" />
-    <Resource Include="View\LoginImage.png" />
-    <Resource Include="View\user2.ico" />
+    <Resource Include="View\Images\Key.ico" />
+    <Resource Include="View\Images\LoginImage.png" />
+    <Resource Include="View\Images\user2.ico" />
   </ItemGroup>
 
 </Project>

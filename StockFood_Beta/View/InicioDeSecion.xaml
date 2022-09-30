@@ -14,7 +14,7 @@
         MouseDown="Window_MouseDown">
     <Border CornerRadius="11">
         <Border.Background>
-            <ImageBrush ImageSource="/View/LoginImage.png"/>
+            <ImageBrush ImageSource="/View/Images/LoginImage.png"/>
         </Border.Background>
         <Border CornerRadius="10"
                 BorderThickness="5">
@@ -176,9 +176,12 @@
                              Height="23"
                              VerticalAlignment="center"
                              Margin="0,5,0,0"
-                             Padding="20,0,0,0" RenderTransformOrigin="0.492,0.379" SelectionBrush="#FF424242" SelectionTextBrush="#FF424242">
+                             Padding="20,0,0,0" 
+                             RenderTransformOrigin="0.492,0.379" 
+                             SelectionBrush="#FF424242"
+                             SelectionTextBrush="#FF424242">
                         <TextBox.Background>
-                            <ImageBrush ImageSource="/View/user2.ico" Stretch="Uniform"
+                            <ImageBrush ImageSource="/View/Images/user2.ico" Stretch="Uniform"
                                         AlignmentX="Left" AlignmentY="Center">
                                 <ImageBrush.RelativeTransform>
                                     <TransformGroup>
@@ -211,7 +214,7 @@
                              Margin="0,5,0,0"
                              Padding="20,0,0,0" RenderTransformOrigin="0.492,0.379" SelectionBrush="#FF424242" SelectionTextBrush="#FF424242">
                         <PasswordBox.Background>
-                            <ImageBrush ImageSource="/View/Key.ico" Stretch="Uniform"
+                            <ImageBrush ImageSource="/View/Images/Key.ico" Stretch="Uniform"
                                         AlignmentX="Left" AlignmentY="Center">
                                 <ImageBrush.RelativeTransform>
                                     <TransformGroup>

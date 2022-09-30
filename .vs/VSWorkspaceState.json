@@ -1,15 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\StockFood_v0.01",
-    "\\StockFood_v0.01\\bin",
-    "\\StockFood_v0.01\\bin\\Debug",
-    "\\StockFood_v0.01\\bin\\Release",
-    "\\StockFood_v0.01\\obj",
-    "\\StockFood_v0.01\\obj\\buttons",
-    "\\StockFood_v0.01\\obj\\Debug",
-    "\\StockFood_v0.01\\obj\\Debug\\TempPE"
+    "\\StockFood_Beta",
+    "\\StockFood_Beta\\View"
   ],
-  "SelectedNode": "\\StockFood_v0.01\\Form1.cs",
+  "SelectedNode": "\\StockFood_Beta\\StockFood_Beta.sln",
   "PreviewInSolutionExplorer": false
 }
