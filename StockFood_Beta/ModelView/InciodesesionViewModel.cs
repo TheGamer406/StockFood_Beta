@@ -4,7 +4,6 @@ using System.Linq;
 using System.Security;
 using System.Text;
 using System.Threading.Tasks;
-using System.Windows.Input;
 
 namespace StockFood_Beta.ModelView
 {
@@ -64,37 +63,6 @@ namespace StockFood_Beta.ModelView
                 _IsViewVisible = value;
                 OnPropertyChanged(nameof(IsViewVisible));
             }
-        }
-        //-> Comandos
-        public ICommand IncioSesionCommand { get; }
-        public ICommand RecuperarContraseñaCommand { get; }
-        public ICommand ShowContraseñaCommand { get; }
-        public ICommand RemenberCommand { get; }
-
-        //Constructor 
-        public InciodesesionViewModel()
-        {
-            IncioSesionCommand = new ViewModelComand(ExecuteIncioSesionCommand, CanExecuteInicioSecionCommand);
-            RecuperarContraseñaCommand = new ViewModelComand(p=>ExecuteRecuperarContraseñaCommand("",""));
-        }
-
-        private bool CanExecuteInicioSecionCommand(object obj)
-        {
-            bool ValidDate;
-            if (string.IsNullOrWhiteSpace(Username) || Username.Length < 3 || password == null || password.Length < 3)
-                ValidDate = false;
-            else
-                ValidDate = true;
-            return ValidDate;
-        }
-
-        private void ExecuteIncioSesionCommand(object obj)
-        {
-            throw new NotImplementedException();
-        }
-        private void ExecuteRecuperarContraseñaCommand(string Username, string email)
-        {
-            throw new NotImplementedException();
         }
     }
 }
