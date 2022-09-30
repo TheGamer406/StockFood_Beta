@@ -4,10 +4,11 @@ using System.Linq;
 using System.Security;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Input;
 
 namespace StockFood_Beta.ModelView
 {
-    public class InciodesesionViewModel:ViewModelBase
+    public class InciodesesionViewModel : ViewModelBase
     {
         //campos 
         private string _username;
@@ -52,17 +53,14 @@ namespace StockFood_Beta.ModelView
                 OnPropertyChanged(nameof(errosmessage));
             }
         }
-        public bool IsViewVisible
-        {
-            get
-            {
-                return _IsViewVisible;
-            }
-            set
-            {
-                _IsViewVisible = value;
-                OnPropertyChanged(nameof(IsViewVisible));
-            }
-        }
+        //->Comandos 
+        public ICommand InicioCommand { get; }
+        public ICommand RecoverContraseñaCommand { get; }
+        public ICommand ShowContraseñaCommand { get; }
+        public ICommand RemenberContreseñaCommand { get; }
+
+        //Constructor 
+        public 
+
     }
 }

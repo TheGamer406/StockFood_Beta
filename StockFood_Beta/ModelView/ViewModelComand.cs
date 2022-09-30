@@ -7,7 +7,7 @@ using System.Windows.Input;
 
 namespace StockFood_Beta.ModelView
 {
-    public class ViewModelComand : ICommand
+    public class ViewModelComand : ICommand 
     {
         //Campos 
         private readonly Action<object> _executeAction;
@@ -30,16 +30,16 @@ namespace StockFood_Beta.ModelView
         public event EventHandler? CanExecuteChanged
         {
             add { CommandManager.RequerySuggested += value; }
-            remove { CommandManager.RequerySuggested += value; }
+            remove { CommandManager.RequerySuggested -= value; }
         }
 
         //metodos
-        public bool CanExecute(object? parameter)
+        public bool CanExecute(object parameter)
         {
             return _canExecuteAction == null ? true : _canExecuteAction(parameter);
         }
 
-        public void Execute(object? parameter)
+        public void Execute(object parameter)
         {
             _executeAction(parameter);
         }

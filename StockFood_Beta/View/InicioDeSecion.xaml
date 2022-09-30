@@ -4,6 +4,7 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:StockFood_Beta.View"
+        xmlns:InicioCall = "clr-namespace:StockFood_Beta.ModelView"
         mc:Ignorable="d"
         Title="InicioDeSecion" Height="550" Width="800"
         WindowStyle="none"
@@ -12,6 +13,16 @@
         Background="Transparent"
         AllowsTransparency="True"
         MouseDown="Window_MouseDown">
+
+    <Window.DataContext>
+        <InicioCall:InciodesesionViewModel/>
+    </Window.DataContext>
+    
+    <Window.Resources>
+        <BooleanToVisibilityConverter x:Name="BooleantoVisibility"/>
+    </Window.Resources>
+
+
     <Border CornerRadius="11">
         <Border.Background>
             <ImageBrush ImageSource="/View/Images/LoginImage.png"/>
