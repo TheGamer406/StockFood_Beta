@@ -15,7 +15,7 @@ namespace StockFood_Beta.ViewModel
     public class InciodesesionViewModel : ViewModelBase
     {
         //campos 
-        private string _username;
+        private string _username=;
         private SecureString _password;
         private string _ErrorMessage;
         private bool _IsViewVisible = true;
