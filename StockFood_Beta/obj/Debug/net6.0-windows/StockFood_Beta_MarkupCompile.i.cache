@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 C:\Users\josem\OneDrive\Documentos\GitHub\StockFood_Beta\StockFood_Beta\App.xaml
-2-521711407
+3463516960
 11151213475
-91609868548
+101768277255
 194-1103864946
-MainWindow.xaml;View\InicioDeSecion.xaml;
+CustomControls\BindablePasswordBox.xaml;MainWindow.xaml;View\InicioDeSecion.xaml;
 
 True
 

@@ -5,9 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
 
-namespace StockFood_Beta.ModelView
+namespace StockFood_Beta.ViewModel
 {
-    public class ViewModelComand : ICommand 
+    public class ViewModelComand : ICommand
     {
         //Campos 
         private readonly Action<object> _executeAction;

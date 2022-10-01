@@ -5,16 +5,16 @@ winexe
 C#
 .cs
 C:\Users\josem\OneDrive\Documentos\GitHub\StockFood_Beta\StockFood_Beta\obj\Debug\net6.0-windows\
-StockFood_Beta_uwoie5il_wpftmp
+StockFood_Beta
 none
 false
-TRACE;RELEASE;NET;NET6_0;NETCOREAPP
+TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 C:\Users\josem\OneDrive\Documentos\GitHub\StockFood_Beta\StockFood_Beta\App.xaml
-2-521711407
+3463516960
 11151213475
-12-137441047
-3882087237404
-MainWindow.xaml;View\InicioDeSecion.xaml;
+8624863916
+194-1103864946
+CustomControls\BindablePasswordBox.xaml;MainWindow.xaml;View\InicioDeSecion.xaml;
 
-True
+False
 
