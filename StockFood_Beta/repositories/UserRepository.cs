@@ -3,33 +3,15 @@ using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
-using System.Linq;
 using System.Net;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace StockFood_Beta.repositories
 {
     public class UserRepository : RepositoryBase, IuserRepository
     {
-        public bool add(UserModel userModel) 
+        public void add(UserModel userModel)
 
-        private IDisposable GetConnection()
-        {
-            throw new NotImplementedException();
-        }
-
-        public bool AuthenticateUser(NetworkCredential credential)
-        {
-            throw new NotImplementedException();
-        }
-
-        public void Edit(UserModel userModel)
-        {
-            throw new NotImplementedException();
-        }
-
-        public IEnumerable<UserModel> GetByAll()
+        bool AuthenticateUser(NetworkCredential credential)
         {
             throw new NotImplementedException();
         }
@@ -39,7 +21,7 @@ namespace StockFood_Beta.repositories
             throw new NotImplementedException();
         }
 
-        public UserModel GetVyUsername(string username)
+        public UserModel GetbyUsername(string username)
         {
             throw new NotImplementedException();
         }
@@ -49,9 +31,5 @@ namespace StockFood_Beta.repositories
             throw new NotImplementedException();
         }
 
-        void IuserRepository.add(UserModel userModel)
-        {
-            throw new NotImplementedException();
-        }
     }
 }
