@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace StockFood_Beta.Clases
 {
-    internal class Producto
+    internal class Producto 
     {
         public byte Identificacion;
         public string Name;

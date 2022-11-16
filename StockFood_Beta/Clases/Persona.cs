@@ -6,29 +6,16 @@ using System.Threading.Tasks;
 
 namespace StockFood_Beta.Clases
 {
-    internal class Persona
+    public class Persona
     {
-
-        public int identificacion;
-        public string name;
-        public string puesto;
-        public double salario;
-        public int codigo;
-        public byte nivelDeSeguridad;
-        public string TipoDeApp;
-        public double numeroDeSeguro;
-
-        public void setIdentificacion(int id)
-        {
-            this.identificacion = id;
-        }
-        public int getIdentificacion()
-        { return identificacion; }
-
-        public void setName(string Name)
-        {
-            name = Name;
-        }
+        public int identificacion { get; set; }
+        public string name { get; set; }
+        public string puesto { get; set; }
+        public double salario { get; set; }
+        public int codigo { get; set; }
+        public byte nivelDeSeguridad { get; set; }
+        public string TipoDeApp { get; set; }
+        public double numeroDeSeguro { get; set; }
 
     }
 }
