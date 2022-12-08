@@ -1,0 +1,16 @@
+C:\Users\josem\OneDrive\Documentos\GitHub\StockFood_Beta\StockFood_Beta\bin\Debug\StockFood_Beta.exe.config
+C:\Users\josem\OneDrive\Documentos\GitHub\StockFood_Beta\StockFood_Beta\bin\Debug\StockFood_Beta.exe
+C:\Users\josem\OneDrive\Documentos\GitHub\StockFood_Beta\StockFood_Beta\bin\Debug\StockFood_Beta.pdb
+C:\Users\josem\OneDrive\Documentos\GitHub\StockFood_Beta\StockFood_Beta\obj\Debug\StockFood_Beta.csproj.AssemblyReference.cache
+C:\Users\josem\OneDrive\Documentos\GitHub\StockFood_Beta\StockFood_Beta\obj\Debug\StockFood_Beta.csproj.SuggestedBindingRedirects.cache
+C:\Users\josem\OneDrive\Documentos\GitHub\StockFood_Beta\StockFood_Beta\obj\Debug\Views\InicioDeSesion.g.cs
+C:\Users\josem\OneDrive\Documentos\GitHub\StockFood_Beta\StockFood_Beta\obj\Debug\App.g.cs
+C:\Users\josem\OneDrive\Documentos\GitHub\StockFood_Beta\StockFood_Beta\obj\Debug\StockFood_Beta_MarkupCompile.cache
+C:\Users\josem\OneDrive\Documentos\GitHub\StockFood_Beta\StockFood_Beta\obj\Debug\StockFood_Beta_MarkupCompile.lref
+C:\Users\josem\OneDrive\Documentos\GitHub\StockFood_Beta\StockFood_Beta\obj\Debug\Views\InicioDeSesion.baml
+C:\Users\josem\OneDrive\Documentos\GitHub\StockFood_Beta\StockFood_Beta\obj\Debug\StockFood_Beta.g.resources
+C:\Users\josem\OneDrive\Documentos\GitHub\StockFood_Beta\StockFood_Beta\obj\Debug\StockFood_Beta.Properties.Resources.resources
+C:\Users\josem\OneDrive\Documentos\GitHub\StockFood_Beta\StockFood_Beta\obj\Debug\StockFood_Beta.csproj.GenerateResource.cache
+C:\Users\josem\OneDrive\Documentos\GitHub\StockFood_Beta\StockFood_Beta\obj\Debug\StockFood_Beta.csproj.CoreCompileInputs.cache
+C:\Users\josem\OneDrive\Documentos\GitHub\StockFood_Beta\StockFood_Beta\obj\Debug\StockFood_Beta.exe
+C:\Users\josem\OneDrive\Documentos\GitHub\StockFood_Beta\StockFood_Beta\obj\Debug\StockFood_Beta.pdb
